@@ -57,7 +57,7 @@ const handleMouseDown = (e: MouseEvent) => {
             windowHeader.value!.style.left = x + "px";
         }
     }
-    windowHeader.value.onmouseup = (e: MouseEvent) => {
+    windowHeader.value.onmouseup = (_e: MouseEvent) => {
         isDragging = false;
         cursorStyle.value = "default"
     }

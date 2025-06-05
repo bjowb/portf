@@ -74,7 +74,7 @@ const startDrag = (event: MouseEvent, index: number) => {
             appWrapperElement.style.left = coordinates.x + "px"
         }
     }
-    appWrapperElement.onmouseup = (event: MouseEvent) => {
+    appWrapperElement.onmouseup = (_event: MouseEvent) => {
         isDragging = false
         appWrapperElement.style.opacity = "1"
     }

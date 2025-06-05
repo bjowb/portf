@@ -7,9 +7,7 @@
             <template v-slot:body>
                 <div class="popup no-select">
                     <ul>
-                        <li class="window_95_link" @click="openLink('https://twitter.com/belmo01', '_blank')">follow me
-                            on twitter</li>
-                        <li class="window_95_link" @click="openLink('mailto:belmomohamedali@gmail.com', '_self')">
+                        <li class="window_95_link" @click="openLink('mailto:pulktchhr@gmail.com', '_self')">
                             contact me or hire me</li>
                         <li class="window_95_link" @click="openLink('', '_blank')">star this project on github</li>
                     </ul>
