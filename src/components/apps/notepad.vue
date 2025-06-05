@@ -50,10 +50,10 @@
 
 <script setup lang="ts">
 import { onMounted, ref, type Ref } from 'vue';
-import OutlineWindow from '@/components/slots/outlineWindow.vue';
-import { useAppStore } from '@/stores/appStore';
-import '@/assets/scss/base.scss'
-import '@/assets/scss/buttons.scss'
+import OutlineWindow from '../slots/outlineWindow.vue';
+import { useAppStore } from '../../store/store';
+import '../../assets/scss/base.scss'
+import '../../assets/scss/buttons.scss'
 
 const props = defineProps({
     content: { type: String }

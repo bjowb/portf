@@ -36,7 +36,7 @@
                                 <td>{{ deletedApp.name }}</td>
                                 <td>{{ deletedApp.originalLocation }}</td>
                                 <td>{{ deletedApp.deletedDate }}</td>
-                                <td>{{ deletedApp.type }}</td>
+                                <td>{{ deletedApp.description }}</td>
                                 <td>{{ deletedApp.size }}</td>
                             </tr>
                         </table>
@@ -49,9 +49,9 @@
 
 <script setup lang="ts">
 import { ref, type Ref } from 'vue';
-import OutlineWindow from '@/components/slots/outlineWindow.vue';
-import { useAppStore } from '@/stores/appStore';
-import type { IRecycleBin } from "@/assets/ts/apps";
+import OutlineWindow from '../slots/outlineWindow.vue';
+import { useAppStore } from '../../store/store';
+import type { IRecycleBin } from "../../assets/ts/app";
 
 let appStore = useAppStore();
 let displayWindow: Ref<boolean> = ref(true);

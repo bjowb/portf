@@ -13,9 +13,8 @@
 
 <script setup lang="ts">
 // Import your components with proper casing and paths
-import RenderingApps from '@/components/RenderingApps.vue'
-import Taskbar from '@/components/Taskbar.vue'
-
+import RenderingApps from '../components/RenderingApps.vue'
+import Taskbar from '../components/Taskbar.vue'
 // If you don't have a taskbar component yet, comment out the import and template usage
 </script>
 

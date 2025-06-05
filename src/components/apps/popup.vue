@@ -21,9 +21,9 @@
 </template>
 
 <script setup lang="ts">
-import OutlineWindow from '@/components/slots/outlineWindow.vue';
-import '@/assets/scss/buttons.scss'
-import { openLink } from '@/assets/ts/core'
+import OutlineWindow from '../slots/outlineWindow.vue'
+import '../../assets/scss/buttons.scss'
+import { openLink } from '../../assets/ts/core'
 import { onMounted, ref, type Ref } from 'vue';
 
 

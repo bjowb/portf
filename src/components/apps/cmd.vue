@@ -13,8 +13,8 @@
 </template>
 
 <script setup lang="ts">
-import OutlineWindow from '@/components/slots/outlineWindow.vue';
-import { useAppStore } from '@/stores/appStore';
+import OutlineWindow from '../slots/outlineWindow.vue'
+import { useAppStore } from '../../store/store';
 import { type Ref, ref } from 'vue';
 
 let appStore = useAppStore();

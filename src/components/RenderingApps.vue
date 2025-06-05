@@ -16,11 +16,11 @@
 </template>
 
 <script setup lang="ts">
-import '@/assets/scss/base.scss'
-import type { Coordinates } from '@/assets/ts/core'
+import '../assets/scss/base.scss'
+import type { Coordinates } from '../assets/ts/core'
 import { ref } from 'vue';
 import Popup from './apps/popup.vue';
-import { useAppStore } from '@/stores/appStore';
+import { useAppStore } from '../store/store';
 
 let appStore = useAppStore();
 let appWrapper = ref(null);

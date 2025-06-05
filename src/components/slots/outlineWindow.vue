@@ -2,7 +2,7 @@
     <div class="window window_outline" ref="windowHeader">
         <header @mousedown="handleMouseDown($event)" :style="{ cursor: cursorStyle }" class="no-select"
             @mouseleave="isDragging = false">
-            <img src="@/assets/mario.gif">
+            <img src="../../assets/mario.gif">
             <slot name="header">
                 <p>default name</p>
             </slot>
@@ -22,9 +22,9 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import '@/assets/scss/base.scss'
-import type { Coordinates } from '@/assets/ts/core'
-import { resizeWindow } from '@/assets/ts/resizeWindow'
+import '../../assets/scss/base.scss'
+// import type { Coordinates } from '../../assets/ts/core'
+// import { resizeWindow } from '../../assets/ts/resizeWindow'
 
 const windowHeader = ref<HTMLInputElement | null>(null);
 let isDragging: boolean;

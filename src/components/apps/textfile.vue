@@ -7,7 +7,7 @@
 <script setup lang="ts">
 import { onBeforeMount, ref, type Ref } from 'vue';
 import Notepad from './notepad.vue';
-import { useAppStore } from '@/stores/appStore';
+import { useAppStore } from '../../store/store';
 
 let appStore = useAppStore();
 

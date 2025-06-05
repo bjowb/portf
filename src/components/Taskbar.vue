@@ -71,10 +71,10 @@
 
 <script setup lang="ts">
 import { nextTick, onMounted, ref, type Ref } from 'vue';
-import '@/assets/scss/buttons.scss'
-import '@/assets/scss/base.scss'
-import { openLink } from '@/assets/ts/core'
-import { useAppStore } from '@/stores/appStore';
+import '../assets/scss/buttons.scss'
+import '../assets/scss/base.scss'
+import { openLink } from '../assets/ts/core'
+import { useAppStore } from '../store/store.ts';
 
 let appStore = useAppStore();
 let currentTime: Ref<string> = ref('');
@@ -115,7 +115,7 @@ onMounted(() => {
 </script>
 
 <style scoped lang="scss">
-@import '@/assets/scss/base.scss';
+@import '../assets/scss/base.scss';
 
 .task-bar {
     width: 100%;

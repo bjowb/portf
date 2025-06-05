@@ -10,7 +10,7 @@
                             <!-- maybe add page 1 2 3 4, and switch between them using a button -->
                             <div class="aboutme-container">
                                 <div class="img-wrapper">
-                                    <img src="@/assets/random_.png" alt="random image from giphy">
+                                    <img src="../../assets/random_.png" alt="random image from giphy">
                                 </div>
                                 <div class="section-wrapper">
                                     <!-- 2: skills -->
@@ -27,19 +27,19 @@
                                             front end
                                         </h4>
                                         <p>
-                                            HTML - CSS - SASS - Vue.js - Nuxt.js - Pinia - Tailwind CSS - Astro
+                                            HTML - CSS - SASS - Vue.js - Nuxt.js - Pinia - Tailwind CSS 
                                         </p>
                                         <h4>
                                             developer tools
                                         </h4>
                                         <p>
-                                            Git - VS Code - Visual Studio - Photoshop - bash
+                                            Git - VS Code - Visual Studio  - bash
                                         </p>
                                     </div>
                                     <!-- 2: projects -->
                                     <div v-if="currentSlideIndex === 1" class="projects-wrapper">
                                         <h3>Personal projects <span
-                                                @click="openLink('https://github.com/kaibelmo', '_blank')"
+                                                @click="openLink('https://github.com/bjowb', '_blank')"
                                                 style="cursor: pointer;">for more projects check my
                                                 github</span>
                                         </h3>
@@ -57,23 +57,23 @@
                                         </div>
                                         <div class="project-container window_outline">
                                             <div class="body">
-                                                <h5 @click="openLink('https://github.com/KaiBelmo/libC--', '_blank')"
+                                                <h5 @click="openLink('https://github.com/bjowb/goRun', '_blank')"
                                                     style="cursor: help;">
-                                                    libC-- : <span>(C programming)</span>
+                                                    goRun <span>(fitness tracking)</span>
                                                 </h5>
                                                 <p>
-                                                    C++ containers but in C
+                                                    used for computing bmi and caloric needs and food sugggestions.
                                                 </p>
                                             </div>
                                         </div>
                                         <div class="project-container window_outline">
                                             <div class="body">
-                                                <h5 @click="openLink('https://github.com/KaiBelmo/b1m0-dbg', '_blank')"
+                                                <h5 @click="openLink('https://github.com/bjowb/schizo', '_blank')"
                                                     style="cursor: help;">
-                                                    b1m0-dbg : <span>(C programming)</span>
+                                                    schizo : <span>(blogging website))</span>
                                                 </h5>
                                                 <p>
-                                                    linux debugger
+                                                    create posts and view them.
                                                 </p>
                                             </div>
                                             <div class="links">
@@ -111,11 +111,11 @@
 
 <script setup lang="ts">
 import { onMounted, ref, type Ref } from 'vue';
-import OutlineWindow from '@/components/slots/outlineWindow.vue';
-import { useAppStore } from '@/stores/appStore';
-import { openLink } from '@/assets/ts/core'
-import '@/assets/scss/buttons.scss'
-import '@/assets/scss/base.scss'
+import OutlineWindow from '../slots/outlineWindow.vue';
+import { useAppStore } from '../../store/store';
+import { openLink } from '../../assets/ts/core'
+import '../../assets/scss/base.scss'
+import '../../assets/scss/buttons.scss'
 
 
 let appStore = useAppStore();

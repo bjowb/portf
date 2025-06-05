@@ -6,11 +6,11 @@ import type { IApp } from "../assets/ts/app";
 import { initRecycleBin } from "../assets/ts/app";
 
 
-import NotepadIcon from '@/assets/notepad.png'
-import TrashIcon from '@/assets/trash.png'
-import aboutMeIcon from '@/assets/aboutme.png'
-import textFileIcon from '@/assets/text_file.png'
-import cmdIcon from '@/assets/cmd.png'
+import NotepadIcon from '../assets/notepad.png'
+import TrashIcon from '../assets/trash.png'
+import aboutMeIcon from '../assets/aboutme.png'
+import textFileIcon from '../assets/text_file.png'
+import cmdIcon from '../assets/cmd.png'
 
 
 import Notepad from "../components/apps/notepad.vue";
