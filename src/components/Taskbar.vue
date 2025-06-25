@@ -13,7 +13,7 @@
                 </div>
                 <div class="start-menu-content">
                     <ul>
-                        <li @click="openLink('https://github.com/kaibelmo', '_blank')" style="cursor: pointer;">
+                        <li @click="openLink('https://github.com/bjowb', '_blank')" style="cursor: pointer;">
                             <img src="../assets/github_logo_.png" class="pix-icon">
                             my github
                         </li>

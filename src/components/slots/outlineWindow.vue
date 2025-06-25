@@ -31,12 +31,9 @@ let isDragging: boolean;
 let cursorStyle = ref("default");
 const emit = defineEmits(['closeWindow']);
 
-const props = defineProps({
-    disableBtn: {
-        type: Boolean,
-        default: true
-    }
-});
+const { disableBtn } = defineProps<{
+    disableBtn?: boolean
+}>();
 
 const handleMouseDown = (e: MouseEvent) => {
     if (windowHeader.value == null)

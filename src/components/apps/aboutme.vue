@@ -121,9 +121,10 @@ import '../../assets/scss/buttons.scss'
 let appStore = useAppStore();
 let displayWindow: Ref<boolean> = ref(true);
 let displayedText: string = `
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-    Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem.
-    for more information contact me xd.
+    hello my name is pulkit.
+    this is good stuff.
+    good stuff hidden here.
+    also give me a job pls.
     `;
 let tmpArr: string[] = []
 let cipheredText: Ref<string[]> = ref([])
