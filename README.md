@@ -32,7 +32,7 @@ A quirky and nostalgic developer portfolio styled like **Windows 95**, built wit
 
 ## 🔗 Live Demo
 
-[🧪 Explore the Portfolio](https://your-portfolio-url.com) <!-- Replace with your actual link -->
+[🧪 Explore the Portfolio](https://portf-lovat-theta.vercel.app/) <!-- Replace with your actual link -->
 
 ---
 
